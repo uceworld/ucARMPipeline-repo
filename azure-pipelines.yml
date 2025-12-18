@@ -13,7 +13,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'ARMPipeline-conn'
+    azureResourceManagerConnection: 'ucARMPipeline-conn'
     subscriptionId: 'b5b1434c-b906-4c00-a6ab-27ab5b63052d'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'ARMPipeline-rg'
